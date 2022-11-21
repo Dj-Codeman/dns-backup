@@ -1,0 +1,68 @@
+{
+  "username": "admin",
+  "tokenName": "BackupToken",
+  "token": "580cebf828d07213996ebdad3fafde3eecb089e87a547ee325631a9e0fd1c9e0",
+  "info": {
+    "version": "9.1",
+    "dnsServerDomain": "dhcp-dns",
+    "defaultRecordTtl": 3600,
+    "permissions": {
+      "Dashboard": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Zones": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Cache": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Allowed": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Blocked": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Apps": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "DnsClient": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Settings": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "DhcpServer": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Administration": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      },
+      "Logs": {
+        "canView": true,
+        "canModify": true,
+        "canDelete": true
+      }
+    }
+  },
+  "status": "ok"
+}
