@@ -54,7 +54,7 @@ def backups():
             dns_username = str(api_data['username'])
             url = f"http://{ip_addr}/api/settings/backup?token={dns_token}&blockLists=true&logs=true&scopes=true&stats=true&zones=true&allowedZones=true&blockedZones=true&dnsSettings=true&logSettings=true&authConfig=true"
             file = req.get(url, allow_redirects=True)
-            download_name = f"./data/{timestamp}-{ip_addr}.zip"
+            download_name = f"/opt/backups/dns/data/{timestamp}-{ip_addr}.zip"
             print(open(download_name, 'wb').write(file.content))
         # print(dns_username)
 
